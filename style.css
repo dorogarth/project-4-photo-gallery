@@ -56,14 +56,23 @@ input::placeholder {
 	margin: auto;
 }
 
+.caption { 
+	color: #e3e3e3;
+	text-align: left;
+	font-size: 11px;
+	width: 540px;
+	line-height: 1.5em;
+	margin: 28px;
+ }
+
 @media only screen and (max-width: 768px) {
-	p {
+	.caption {
 		width: 425px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	p {
+	.caption {
 		width: 260px;
 	}
 }

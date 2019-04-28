@@ -5,27 +5,39 @@
   <title>Photo Gallery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="featherlight-1.7.13/release/featherlight.css">
-  <link rel="stylesheet" href="featherlight-1.7.13/release/featherlight.gallery.min.css" type="text/css">
+  <link rel="stylesheet" href="featherlight-1.7.13/release/featherlight.gallery.css">
   <link rel="stylesheet" href="style.css">
 </head>
   <body>
   	<div class="container">
   		<div class="search-bar">
-				<input id="input-id" type="text" placeholder="Search" value="" onkeyup="search()"></form>
+				<input id="input-id" type="text" placeholder="Search" value="" onkeyup="search()">
 			</div>
-			<div id="photos">
-				<img class="thumbnail" src=img/thumbnails/01.jpg data-featherlight="img/01.jpg" id="01.jpg">
-				<img class="thumbnail" src=img/thumbnails/02.jpg data-featherlight="img/02.jpg" id="02.jpg">
-				<img class="thumbnail" src=img/thumbnails/03.jpg data-featherlight="img/03.jpg" id="03.jpg">
-				<img class="thumbnail" src=img/thumbnails/04.jpg data-featherlight="img/04.jpg" id="04.jpg">
-				<img class="thumbnail" src=img/thumbnails/05.jpg data-featherlight="img/05.jpg" id="05.jpg"> 
-				<img class="thumbnail" src=img/thumbnails/06.jpg data-featherlight="img/06.jpg" id="06.jpg">
-				<img class="thumbnail" src=img/thumbnails/07.jpg data-featherlight="img/07.jpg" id="07.jpg">
-				<img class="thumbnail" src=img/thumbnails/08.jpg data-featherlight="img/08.jpg" id="08.jpg">
-				<img class="thumbnail" src=img/thumbnails/09.jpg data-featherlight="img/09.jpg" id="09.jpg">
-				<img class="thumbnail" src=img/thumbnails/10.jpg data-featherlight="img/10.jpg" id="10.jpg">
-				<img class="thumbnail" src=img/thumbnails/11.jpg data-featherlight="img/11.jpg" id="11.jpg">
-				<img class="thumbnail" src=img/thumbnails/12.jpg data-featherlight="img/12.jpg" id="12.jpg">
+			<div id="photos" data-featherlight-gallery data-featherlight-filter="a">
+				<a href="img/01.jpg">
+					<img class="thumbnail" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields." src=img/thumbnails/01.jpg id="01.jpg"></a>
+				<a href="img/02.jpg">
+					<img class="thumbnail" alt="The lake was so calm today. We had a great view of the snow on the mountains from here." src=img/thumbnails/02.jpg id="02.jpg"></a>
+				<a href="img/03.jpg">
+					<img class="thumbnail" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below." src=img/thumbnails/03.jpg id="03.jpg"></a>
+				<a href="img/04.jpg">
+					<img class="thumbnail" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." src=img/thumbnails/04.jpg id="04.jpg"></a>
+				<a href="img/05.jpg">
+					<img class="thumbnail" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." src=img/thumbnails/05.jpg id="05.jpg"> </a>
+				<a href="img/06.jpg">
+					<img class="thumbnail" alt="Fall is coming, I love when the leaves on the trees start to change color." src=img/thumbnails/06.jpg id="06.jpg"></a>
+				<a href="img/07.jpg">
+					<img class="thumbnail" alt="I drove past this plantation yesterday, everything is so green!" src=img/thumbnails/07.jpg id="07.jpg"></a>
+				<a href="img/08.jpg">
+					<img class="thumbnail" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!" src=img/thumbnails/08.jpg id="08.jpg"></a>
+				<a href="img/09.jpg">
+					<img class="thumbnail" alt="We enjoyed a quiet stroll down this countryside lane." src=img/thumbnails/09.jpg id="09.jpg"></a>
+				<a href="img/10.jpg">
+					<img class="thumbnail" alt="Sunset at the coast! The sky turned a lovely shade of orange." src=img/thumbnails/10.jpg id="10.jpg"></a>
+				<a href="img/11.jpg">
+					<img class="thumbnail" alt="I did a tour of a cave today and the view of the landscape below was breathtaking." src=img/thumbnails/11.jpg id="11.jpg"></a>
+				<a href="img/12.jpg">
+					<img class="thumbnail" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." src=img/thumbnails/12.jpg id="12.jpg"></a>
 			</div>
 		</div>
 		<script src="jquery-3.4.0.min.js"></script>

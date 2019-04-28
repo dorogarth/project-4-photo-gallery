@@ -38,7 +38,7 @@ html.with-featherlight {
 
 .featherlight .featherlight-content {
     width: 600px; /*modified*/
-    height: 470px; /*modified*/
+    height: 480px; /*modified*/
     position: relative;
     text-align: left;
     vertical-align: middle;
@@ -125,7 +125,7 @@ html.with-featherlight {
 @media only screen and (max-width: 600px) {
     .featherlight .featherlight-content {
         width: 325px;
-        height: 310px;
+        height: 325px;
         margin-left: 0;
         margin-right: 0;
         max-height: 98%;
