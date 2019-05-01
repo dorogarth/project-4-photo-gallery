@@ -20,9 +20,9 @@ function search() {
     // Create an array of all image ids
     imgs = $('.thumbnail');
     for (i = 0; i < imgs.length; i++) {
-        src = imgs[i].id;
+        src = imgs[i].alt;
 
-    // Compare the input to each of the element ids in the array
+    // Compare the input to each array element's alt text
         if (src.indexOf(inputLower) > -1) {
             imgs[i].style.display = "";
 
